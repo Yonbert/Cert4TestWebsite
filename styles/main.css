@@ -1,5 +1,6 @@
 body {
-    background-color: hsl(138, 40%, 89%);
+    margin: 0px;
+    background-color: hsl(138, 40%, 90%);
     color: hsl(0, 0%, 11%);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,4 +11,44 @@ img {
 
 .logo {
     max-width: 60px;
+}
+
+.main-header {
+    background-color: hsl(138, 40%, 80%);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: hsl(0, 0%, 11%);
+    padding: 15px;
+
+}
+.navigation a:hover {
+    color: hsl(0, 0%, 60%);
+    background-color: hsl(138, 40%, 90%);
+}
+
+.banner {
+    background-image: url("../images/horses.jpeg");
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+}
+
+.banner h1 {
+    color: hsl(0, 0%, 90%);
+    background-color: hsl(0, 0%, 11%);
+    padding: 10px;
 }
