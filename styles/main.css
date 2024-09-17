@@ -52,3 +52,36 @@ img {
     background-color: hsl(0, 0%, 11%);
     padding: 10px;
 }
+.home-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: 2em auto;
+    gap: 20px;
+}
+.card-image {
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    object-position: center;
+}
+.card {
+    border: 1px solid #b4b4b4;
+
+}
+.card-content {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.card-button {
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    max-width: 100px;
+    align-self: center;
+    max-width: 100%;
+}
