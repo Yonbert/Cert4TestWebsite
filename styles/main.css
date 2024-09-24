@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: hsl(138, 40%, 90%);
+    background-color: hsl(56, 100%, 75%);
     color: hsl(0, 0%, 11%);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,11 +10,11 @@ img {
 }
 
 .logo {
-    max-width: 60px;
+    max-width: 200px;
 }
 
 .main-header {
-    background-color: hsl(138, 40%, 80%);
+    background-color: hsl(58, 43%, 83%);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -85,3 +85,23 @@ img {
     align-self: center;
     max-width: 100%;
 }
+.main-footer {
+    background-color: hsl(0, 0%, 11%);
+    padding: 1em;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-footer a{
+    color: hsl(56, 100%, 75%);
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    color:white;
+}
+
+.social-nav{
+    font-size: 1.5em;
+    }
