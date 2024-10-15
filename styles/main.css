@@ -38,8 +38,23 @@ img {
     background-color: hsl(138, 40%, 90%);
 }
 
+.nav-button {
+    align-self: center;
+    font-size: 24px;
+    padding: 5px;
+    min-width: 32px;
+    background-color: transparent;
+    border-color: transparent;
+    display: none;
+}
+
+.nav-button:focus {
+    background-color: #202020;
+    color: white;
+}
+
 .banner {
-    background-image: url("../images/horses.jpeg");
+    background-image: url("../images/omgshoes.jpeg");
     background-position: center;
     background-size: cover;
     min-height: 50vh;
@@ -48,9 +63,10 @@ img {
 }
 
 .banner h1 {
-    color: hsl(0, 0%, 90%);
-    background-color: hsl(0, 0%, 11%);
+    color: hsla(0, 0%, 11%, 100%);
+    background-color: hsla(0, 0%, 11%), 100%;
     padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .home-content {
     display: grid;
@@ -105,3 +121,4 @@ img {
 .social-nav{
     font-size: 1.5em;
     }
+
