@@ -125,3 +125,10 @@ img {
     font-size: 1.5em;
     }
 
+.contact-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1200px;
+        margin: 2em auto;
+        gap: 20px;
+}

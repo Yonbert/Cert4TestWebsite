@@ -2,8 +2,28 @@
     .home-content {
         grid-template-columns: 1fr;
     }
+    .main-header {
+        position: relative;
+    }
     .navigation {
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        z-index: 999;
+        background-color: hsl(53, 43%, 83%);
+        min-width: 100%;
         flex-direction: column;
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    .navigation.open {
+        max-height: 50vh;
+    }  
+    .navigation a {
+        min-width: 100%;
+    }
+
     }
     .search {
         width: 100%;
@@ -18,4 +38,4 @@
     .nav-button {
         display: block;
     }
-}
+
