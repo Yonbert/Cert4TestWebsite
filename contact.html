@@ -48,12 +48,32 @@
 
     <div class="card">
         <div class="card-content">
-          
+          <form action="http://localhost/form-handler" method="post" id="contact">
+             <label for="username" required>Name</label>
+             <input type="text" name="username" required id="username" placeholder="Enter your name">
+             
+             <label for="useremail" required>Email Address</label>
+             <input type="email" name="useremail" required id="useremail" placeholder="Enter your email address">
+             
+             <label for="userpref">
+              <input type="checkbox" name="preference" checked value="marketing" id="userpref">
+              Do you like spam?
+             </label>
+
+             <label for="message">Message</label>
+             <textarea name="message" id="message" placeholder="Type your message here..." rows="5" cols="55" required></textarea> 
+             <div class="form-buttons">
+              <button id="resetbutton" type="reset">Reset</button>
+              <button id="submitbutton" type="submit">Submit</button>
+             </div>
+             
+            
+
+          </form>
         </div>
       </div>
 
       <div class="card">
-        
         <div class="card-content">
           
         </div>

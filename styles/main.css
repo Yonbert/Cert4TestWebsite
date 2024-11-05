@@ -132,3 +132,42 @@ img {
         margin: 2em auto;
         gap: 20px;
 }
+/* contact form */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+#contact label {
+    font-weight: 450;
+}
+#contact input {
+    margin-bottom: 0.5em;
+    border:1px solid #666666;
+    padding: 0.5em;
+}
+#contact input:focus, #contact textarea:focus {
+    outline: solid 0.5px ;
+}
+.form-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.form-buttons button {
+    padding: 0.5em;
+    color: #cccccc;
+    min-width: 10ch;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#submitbutton {
+    background-color: #b17528;
+}
+
+#resetbutton {
+    background-color: #666666;
+}
