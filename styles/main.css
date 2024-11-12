@@ -1,8 +1,9 @@
 body {
     margin: 0px;
-    background-color: hsl(56, 100%, 87%);
+    background-color: hsla(24, 56%, 35%, 1);
     color: hsl(0, 0%, 11%);
     font-family: "Rethink Sans", sans-serif;
+    
 
     /* font-family: Arial, Helvetica, sans-serif; */
 }
@@ -16,7 +17,7 @@ img {
 }
 
 .main-header {
-    background-color: hsl(58, 43%, 83%);
+    background-color: hsla(24, 56%, 35%, 1);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -38,7 +39,7 @@ img {
 }
 .navigation a:hover {
     color: hsl(0, 0%, 60%);
-    background-color: hsl(138, 40%, 90%);
+    background-color: hsl(36, 66%, 67%);
 }
 
 .nav-button {
@@ -63,6 +64,38 @@ img {
     min-height: 50vh;
     display: grid;
     place-items: center;
+}
+.slide:nth-child(1) {
+    background-color:hsl(43, 82%, 78%);
+    background-image: url("../images/shoes/brownleatherbalance.webp");    
+}
+
+.slide:nth-child(2) {
+    background-color:hsl(43, 61%, 69%);
+    background-image: url("../images/shoes/brownleatherglasseswatch.webp");
+}
+.slide:nth-child(3) {
+    background-color:hsl(43, 61%, 69%);
+    background-image: url("../images/shoes/brownwrinkles.webp");
+}
+.slide:nth-child(4) {
+    background-color:hsl(43, 61%, 69%);
+    background-image: url("../images/shoes/shoesshirt.jpeg");
+}
+.slide:nth-child(5) {
+    background-color:hsl(43, 61%, 69%);
+    background-image: url("../images/shoes/converse.jpeg");
+}
+/* carousel */
+.slide {
+    min-width: 100%;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+    font-size: 4em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .banner h1 {
@@ -113,7 +146,7 @@ img {
 }
 
 .main-footer a{
-    color: hsl(56, 100%, 75%);
+    color: hsl(27, 51%, 36%);
     text-decoration: none;
 }
 
@@ -165,9 +198,16 @@ img {
 }
 
 #submitbutton {
-    background-color: #b17528;
+    background-color: #fcfcfc;
+    color:hsl(0, 0%, 11%)
 }
 
 #resetbutton {
     background-color: #666666;
+}
+/* about page */
+.about-page {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }

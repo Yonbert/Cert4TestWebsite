@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>TipToe Soles - Contact Us</title>
+    <title>TipToe Soles - About Us</title>
     <link rel="icon" href="icons/TipToeSoles_Logo1.png">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/responsive.css">
@@ -13,9 +13,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
     <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </head>
 
-<body>
+<body class="about-page">
     <!-- <h1>Greetings, Traveller.</h1> -->
     <header class="main-header">
         <a href="/" class="logo">
@@ -34,45 +36,38 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-    
+    <div id="home-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true }'>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+       </div>
         
-<main class="contact-content">
+<main class="home-content">
     <div class="card">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6629.297168898239!2d151.18494727646603!3d-33.82138071660556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12af1fe3b9b887%3A0x6fda02f3cc79cba1!2sTAFE%20NSW%20-%20St%20Leonards!5e0!3m2!1sen!2sau!4v1730163084010!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="card-content">
-        <h4>Our Location</h4>
+      <img class="card-image" src="images/johnTipToe.jpg" alt="a young smiling boy beside his shine stand">
+      <div class="card-content">
+        <h4>Our Story</h4>
+        <p>Our founder, John TipToe started out as a cobbler and shoeshine on the streets of Sydney. He worked his way up and eventually started his own shoe stall which would eventually become TipToe Soles.</p>
+        
       </div>
     </div>
 
     <div class="card">
+        <img class="card-image" src="images/lushplanetshoes.jpg" alt="a lush planet surrounded by shoes">
         <div class="card-content">
-          <form action="http://localhost/form-handler" method="post" id="contact">
-             <label for="username" required>Name</label>
-             <input type="text" name="username" required id="username" placeholder="Enter your name">
-             
-             <label for="useremail" required>Email Address</label>
-             <input type="email" name="useremail" required id="useremail" placeholder="Enter your email address">
-             
-             <label for="userpref">
-              <input type="checkbox" name="preference" checked value="marketing" id="userpref">
-              Do you like spam?
-             </label>
-
-             <label for="message">Message</label>
-             <textarea name="message" id="message" placeholder="Type your message here..." rows="5" cols="55" required></textarea> 
-             <div class="form-buttons">
-              <button id="resetbutton" type="reset">Reset</button>
-              <button id="submitbutton" type="submit">Submit</button>
-             </div>
-             
-            
-
-          </form>
+          <h4>Our Mission</h4>
+          <p>Our mission is to provide you with the best quality shoes at the best possible prices for years to come, while maintaining a sustainable and zero-carbon footprint so that the Earth remains our home.</p>
+          
         </div>
       </div>
 
       <div class="card">
+        <img class="card-image" src="images/bigshoe.jpg" alt="a huge shoe towering over Sydney">
         <div class="card-content">
+          <h4>Our Future</h4>
+          <p>The future is untold, but we have big plans for expansion and some big news coming very soon. Watch this space!</p>
           
         </div>
       </div>
