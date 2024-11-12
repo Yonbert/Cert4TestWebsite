@@ -40,6 +40,10 @@ img {
 .navigation a:hover {
     color: hsl(0, 0%, 60%);
     background-color: hsl(36, 66%, 67%);
+    font-weight: bold;
+}
+.nav-button a.active {
+    font-weight: bold;
 }
 
 .nav-button {
@@ -50,6 +54,7 @@ img {
     background-color: transparent;
     border-color: transparent;
     display: none;
+    font-weight: bold;
 }
 
 .nav-button:focus {
