@@ -13,7 +13,8 @@ img {
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 300px;
+    align-items: left;
 }
 
 .main-header {
@@ -21,7 +22,7 @@ img {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     padding: 10px 20px;
 
 }
@@ -44,10 +45,12 @@ img {
 }
 .nav-button a.active {
     font-weight: bold;
+    background-color: chocolate;
+    align-items: left;
 }
 
 .nav-button {
-    align-self: center;
+    align-self: left;
     font-size: 24px;
     padding: 5px;
     min-width: 32px;
