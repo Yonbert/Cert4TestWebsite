@@ -39,3 +39,11 @@
         display: block;
     }
 
+@media ( prefers-color-scheme:dark ) {
+    .main-header {
+        background-color: var(--dark-green);
+    }
+    .logo {
+        filter: invert(100%);
+    }
+}

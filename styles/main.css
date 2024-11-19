@@ -1,8 +1,16 @@
+:root {
+    --main-font-family: "Rethink Sans", sans-serif;
+    --dark-green: #0a210fff;
+    --cal-poly-green: #14591dff;
+    --mantis: #6cc551ff;
+    --floral-white: #fbfbf2ff;
+    --copper: #a8763eff;
+}
 body {
     margin: 0px;
-    background-color: hsla(24, 56%, 35%, 1);
+    background-color: var(--cal-poly-green);
     color: hsl(0, 0%, 11%);
-    font-family: "Rethink Sans", sans-serif;
+    font-family: var(--main-font-family);
     
 
     /* font-family: Arial, Helvetica, sans-serif; */
@@ -17,11 +25,11 @@ img {
     align-items: left;
 }
 nav#main-nav a.active {
-    background-color:hsl(36, 66%, 67%);
+    background-color:var(--copper);
     font-weight: bold;
 }
 .main-header {
-    background-color: hsla(24, 56%, 35%, 1);
+    background-color: var(--cal-poly-green);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -37,18 +45,18 @@ nav#main-nav a.active {
 
 .navigation a {
     text-decoration: none;
-    color: hsl(0, 0%, 11%);
+    color: var(--mantis);
     padding: 15px;
 
 }
 .navigation a:hover {
-    color: hsl(0, 0%, 60%);
-    background-color: hsl(36, 66%, 67%);
+    color: var(--mantis);
+    background-color: var(--copper);
     font-weight: bold;
 }
 .nav-button a.active {
     font-weight: bold;
-    background-color: chocolate;
+    background-color: var(--copper);
     align-items: left;
 }
 
@@ -65,7 +73,7 @@ nav#main-nav a.active {
 
 .nav-button:focus {
     background-color: #202020;
-    color: white;
+    color: var(--floral-white);
 }
 
 .banner {
@@ -77,24 +85,24 @@ nav#main-nav a.active {
     place-items: center;
 }
 .slide:nth-child(1) {
-    background-color:hsl(43, 82%, 78%);
+    background-color: var(--floral-white);
     background-image: url("../images/shoes/brownleatherbalance.webp");    
 }
 
 .slide:nth-child(2) {
-    background-color:hsl(43, 61%, 69%);
+    background-color: var(--floral-white);
     background-image: url("../images/shoes/brownleatherglasseswatch.webp");
 }
 .slide:nth-child(3) {
-    background-color:hsl(43, 61%, 69%);
+    background-color: var(--floral-white);
     background-image: url("../images/shoes/brownwrinkles.webp");
 }
 .slide:nth-child(4) {
-    background-color:hsl(43, 61%, 69%);
+    background-color: var(--floral-white);
     background-image: url("../images/shoes/shoesshirt.jpeg");
 }
 .slide:nth-child(5) {
-    background-color:hsl(43, 61%, 69%);
+    background-color: var(--floral-white);
     background-image: url("../images/shoes/converse.jpeg");
 }
 /* carousel */
@@ -111,7 +119,7 @@ nav#main-nav a.active {
 
 .banner h1 {
     color: hsla(0, 0%, 11%, 100%);
-    background-color: hsla(0, 0%, 11%), 100%;
+    background-color: var(--cal-poly-green);
     padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -128,14 +136,14 @@ nav#main-nav a.active {
     object-position: center;
 }
 .card {
-    border: 1px solid #b4b4b4;
+    border: 1px solid var(--floral-white);
 
 }
 .card-content {
     padding: 1em;
     display: flex;
     flex-direction: column;
-    background-color:hsl(36, 66%, 67%)
+    background-color: var(--copper)
 }
 .card-button {
     background-color: black;
@@ -158,7 +166,7 @@ nav#main-nav a.active {
 }
 
 .main-footer a{
-    color: hsl(27, 51%, 36%);
+    color: var(--cal-poly-green);
     text-decoration: none;
 }
 
